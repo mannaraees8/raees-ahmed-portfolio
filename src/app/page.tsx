@@ -187,7 +187,7 @@ export default function Home() {
             <p className="text-slate-400 text-sm lg:text-[1.05rem] tracking-[1px]">
               Detail-oriented{" "}
               <strong className="text-slate-100">Full Stack Developer</strong>{" "}
-              with 2 years of experience in software development, specializing
+              with 3 years of experience in software development, specializing
               in web applications and responsive design. Proven track record of{" "}
               <strong className="text-slate-100">
                 optimizing web performance
