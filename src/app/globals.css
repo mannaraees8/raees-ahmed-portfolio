@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,body,main,section,div{
+    scroll-behavior: smooth;
+}
+
+.links.active{
+    @apply border-l-[2px]   border-l-slate-100 transition  p-2 scale-150 translate-x-16
+}
+.links{
+    @apply hover:border-l-[2px] hover:border-l-slate-100 transition  p-2 hover:scale-150 hover:translate-x-16
+}
+
+
+.skill-pill{
+    @apply rounded-full font-semibold py-1 px-2 text-sm 
+}
+
+.title-name > span{
+    @apply transition-all ease-in-out;
+    
+}
+
+.exp-content{
+    @apply text-slate-400 text-sm lg:text-[.9rem] tracking-[1px]
+}
+
+.exp-position{
+    @apply text-slate-100  text-sm xl:text-base font-semibold
+}
+
+.exp-year{
+    @apply text-slate-400  text-sm lg:text-[.8rem]
+}
+.exp-company{
+    @apply text-slate-100 text-base xl:text-xl my-2 w-full font-semibold
+}
+
+
