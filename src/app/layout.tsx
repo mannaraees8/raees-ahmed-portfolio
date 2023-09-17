@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en" className=" scroll-smooth">
       <head>
         <meta charSet="utf-8" />
-        <meta content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"
