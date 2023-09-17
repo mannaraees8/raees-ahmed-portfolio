@@ -5,6 +5,8 @@ import { Raleway } from "next/font/google";
 export const metadata: Metadata = {
   title: "Raees Ahmed",
   description: "Manna Raees Ahmed's Portfolio",
+  viewport:
+    "user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi",
 };
 const raleway: any = Raleway({ subsets: ["latin"] });
 
@@ -16,8 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en" className=" scroll-smooth">
       <head>
-        <meta charSet="utf-8" />
-        <meta name="viewport" content="width=device-width" />
         <link
           rel="apple-touch-icon"
           sizes="180x180"

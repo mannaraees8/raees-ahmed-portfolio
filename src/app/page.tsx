@@ -179,7 +179,7 @@ export default function Home() {
             </div>
           </div>
         </header>
-        <main className="lg:max-w-[50%] flex flex-col gap-3">
+        <main className="max-w-full lg:max-w-[50%] flex flex-col gap-3">
           <section id="about" ref={abtRef} className={`p-5 lg:pt-24 lg:pb-14`}>
             <h3 className="text-slate-100 text-base w-full font-semibold visible lg:hidden">
               ABOUT
@@ -412,7 +412,7 @@ export default function Home() {
                     <span className="text-slate-100">well-performing URLs</span>{" "}
                     for desktop users through targeted improvements.
                   </p>
-                  <div className="flex gap-3 mt-2">
+                  <div className="flex flex-wrap gap-3 mt-2">
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       .Net
@@ -453,7 +453,7 @@ export default function Home() {
                     applications into the Odoo ecosystem, streamlining data flow
                     and improving efficiency.
                   </p>
-                  <div className="flex gap-3 mt-2">
+                  <div className="flex flex-wrap gap-3 mt-2">
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       Odoo
@@ -508,7 +508,7 @@ export default function Home() {
                     Successfully met project deadlines while maintaining
                     transparent communication with management.
                   </p>
-                  <div className="flex gap-3 mt-2">
+                  <div className="flex flex-wrap gap-3 mt-2">
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       .Net
@@ -560,7 +560,7 @@ export default function Home() {
                     integrate external data sources seamlessly into the web
                     applications.
                   </p>
-                  <div className="flex gap-3 mt-2">
+                  <div className="flex flex-wrap gap-3 mt-2">
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       .Net
@@ -600,7 +600,7 @@ export default function Home() {
                     wireframes and prototypes with Figma, ensuring a
                     user-centered approach to development.
                   </p>
-                  <div className="flex gap-3 mt-2">
+                  <div className="flex flex-wrap gap-3 mt-2">
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       Python
@@ -660,7 +660,7 @@ export default function Home() {
                     </Link>
                     <LiaExternalLinkAltSolid />
                   </p>
-                  <div className="flex gap-3 mt-2">
+                  <div className="flex flex-wrap gap-3 mt-2">
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       .Net
@@ -709,7 +709,7 @@ export default function Home() {
                 demonstrated my commitment to building interactive and engaging
                 web applications.
               </p>
-              <div className="flex gap-3 mt-2">
+              <div className="flex flex-wrap gap-3 mt-2">
                 <span
                   className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                   Vue.js
@@ -723,7 +723,7 @@ export default function Home() {
                   Tailwind
                 </span>
               </div>
-              <div className="flex gap-3 mt-2">
+              <div className="flex flex-wrap gap-3 mt-2">
                 <span>
                   <Image
                     src="/img4.jpeg"
