@@ -762,11 +762,11 @@ export default function Home() {
                 </span>
               </div>
             </div>
+            <p className="exp-content p-5 xl:px-5">
+              Built with Next.js and Tailwind CSS, deployed with Vercel.
+            </p>
           </section>
           <br />
-          <p className="exp-content">
-            Built with Next.js and Tailwind CSS, deployed with Vercel.
-          </p>
         </main>
       </div>
     </div>
