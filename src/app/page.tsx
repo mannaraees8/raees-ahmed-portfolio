@@ -1,17 +1,27 @@
 "use client";
 import Link from "next/link";
 import { BsGithub, BsInstagram } from "react-icons/bs";
-import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillLinkedin, AiOutlineCloseCircle } from "react-icons/ai";
+import { IoIosArrowDropright } from "react-icons/io";
 import { GoCheck } from "react-icons/go";
 import { HiOutlineMail } from "react-icons/hi";
 import { LiaExternalLinkAltSolid } from "react-icons/lia";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 import Image from "next/image";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function Home() {
   let [isVisible, setVisible] = useState(false);
   const [activeLink, setActiveLink] = useState("");
+  const [isActiveImage, setActiveImage] = useState("");
+  const emsImages = [
+    "/ems1.jpeg",
+    "/ems2.jpeg",
+    "/ems3.jpeg",
+    "/ems4.jpeg",
+    "/ems4.jpeg",
+  ];
 
   const [expRef, expInView] = useInView({
     threshold: 0.32, // Adjust the threshold as needed
@@ -302,6 +312,10 @@ export default function Home() {
                       </span>
                       <span
                         className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
+                        Recoil.Js
+                      </span>
+                      <span
+                        className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                         Bootstrap
                       </span>
                       <span
@@ -533,19 +547,61 @@ export default function Home() {
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       Tailwind
                     </span>
+                    <div className="flex flex-wrap gap-3 mt-2 relative">
+                      <span>
+                        <Image
+                          src="/ems1.jpeg"
+                          className="object-contain  rounded-2xl border-[#fff8d038]"
+                          width={80}
+                          height={80}
+                          alt="Picture of the author "
+                        />
+                      </span>
+                      <span className="">
+                        <Image
+                          src="/ems2.jpeg"
+                          className="object-contain  rounded-2xl border-[#fff8d038]"
+                          width={80}
+                          height={80}
+                          alt="Picture of the author"
+                        />
+                      </span>
+                      <span className="">
+                        <Image
+                          src="/ems3.jpeg"
+                          className="object-contain  rounded-2xl border-[#fff8d038]"
+                          width={80}
+                          height={80}
+                          alt="Picture of the author"
+                        />
+                      </span>
+                      <span className="">
+                        <Image
+                          src="/ems5.jpeg"
+                          className="object-contain rounded-xl border-[#fff8d038]"
+                          width={80}
+                          height={80}
+                          alt="Picture of the author"
+                        />
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
             <div className="p-5">
-              <h3 className="exp-company">Lunad Digital Portal</h3>
               <div className="flex flex-wrap w-full  gap-2">
                 <span className="exp-year md:flex-1">
                   <span className="font-sans">Feb-2021</span> - May-2022
                 </span>
                 <div className="flex flex-col w-full xl:max-w-[75%]">
                   <h3 className="exp-position">
-                    Front-End Developer
+                    <div className="flex justify-between">
+                      Front-End Developer{" "}
+                      <small className="text-slate-400 font-normal">
+                        Remote, India
+                      </small>
+                    </div>
                     <p className="text-sm text-slate-400">
                       <span>Project - Enquiry Management System</span>
                     </p>
@@ -723,7 +779,7 @@ export default function Home() {
                   Tailwind
                 </span>
               </div>
-              <div className="flex flex-wrap gap-3 mt-2">
+              <div className="flex flex-wrap gap-3 mt-2 relative">
                 <span>
                   <Image
                     src="/img4.jpeg"
@@ -754,7 +810,7 @@ export default function Home() {
                 <span className="">
                   <Image
                     src="/img3.jpeg"
-                    className="object-contain rounded-2xl border-[#fff8d038]"
+                    className="object-contain rounded-xl border-[#fff8d038]"
                     width={80}
                     height={80}
                     alt="Picture of the author"

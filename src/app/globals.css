@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-html,body,main,section,div{
+html{
     scroll-behavior: smooth;
 }
 
@@ -38,5 +38,35 @@ html,body,main,section,div{
 .exp-company{
     @apply text-slate-100 text-base xl:text-xl my-2 w-full font-semibold
 }
+.btn-close-carousel{
+    background: #eee;
+    color: #000;
+    position: relative;
+    z-index: 9999999;
+    float: right;
+    font-size: 30px;
+    right: -11px;
+    border-radius: 100px;
+    top: -11px;
+}
 
 
+.btn-show-carousel{
+    position: absolute;
+    right: 0;
+    top: 36%;
+    color: gray;
+    @apply text-5xl
+}
+.view-image{
+    width: 80%;
+    margin: auto;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* margin: auto; */
+    height: 72%;
+    background: #eee;
+}
