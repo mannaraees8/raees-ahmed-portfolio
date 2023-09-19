@@ -516,8 +516,9 @@ export default function Home() {
                     technique to extend app accessibility across devices.
                     Developed a{" "}
                     <span className="text-slate-100">real-time</span> chat
-                    module in both .NET and Next.js, implementing web
-                    communication with{" "}
+                    module in both{" "}
+                    <span className="text-slate-100">.NET and Next.js</span>,
+                    implementing web communication with{" "}
                     <span className="text-slate-100">Pusher.js</span>.
                     Successfully met project deadlines while maintaining
                     transparent communication with management.
@@ -526,6 +527,10 @@ export default function Home() {
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       .Net
+                    </span>
+                    <span
+                      className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
+                      Next.js
                     </span>
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
@@ -542,6 +547,14 @@ export default function Home() {
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
                       Alpine.js
+                    </span>
+                    <span
+                      className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
+                      Pusher.js
+                    </span>
+                    <span
+                      className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
+                      Recoil.js
                     </span>
                     <span
                       className={`skill-pill ${activeTheme.bgSkillPill} ${activeTheme.textColor}`}>
@@ -701,13 +714,13 @@ export default function Home() {
                     </p>
                   </h3>
                   <p className="exp-content">
-                    Developed an internal company web application, starting from
-                    requirements gathering and solution architecture. Designed
-                    mobile-first, responsive pages using HTML5, CSS, and jQuery
-                    for improved accessibility. Implemented business logic,
-                    including product management and sales dashboards.
-                    Established a robust three-tier architecture and crafted
-                    efficient SQL queries.
+                    Developed an internal company web application in Asp.net
+                    Mvc, starting from requirements gathering and solution
+                    architecture. Designed mobile-first, responsive pages using
+                    HTML5, CSS, and jQuery for improved accessibility.
+                    Implemented business logic, including product management and
+                    sales dashboards. Established a robust three-tier
+                    architecture and crafted efficient SQL queries.
                   </p>
                   <p
                     className={`flex ${activeTheme.textColor} items-center gap-2`}>
